@@ -17,14 +17,14 @@ public class SampleTest {
         System.out.println("Hello test case1");
     }
 
-//    @Test
-//    @Issue("https://en.wikipedia.org/wiki/Rajasthan")
-//    @DisplayName("Two number are equals or not")
-//    @Description("This method giving unpredictable result")
-//    @Story("having comparison issue on this")
-//    public void issueTest(){
-//        Assertions.assertEquals(10,10);
-//    }
+    @Test
+    @Issue("https://en.wikipedia.org/wiki/Rajasthan")
+    @DisplayName("Two number are equals or not")
+    @Description("This method giving unpredictable result")
+    @Story("having comparison issue on this")
+    public void issueTest(){
+        Assertions.assertEquals(10,5);
+    }
 
     @Test
     @DisplayName("Add Two Numbers")
